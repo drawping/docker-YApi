@@ -53,4 +53,5 @@ COPY --from=builder /yapi .
 
 EXPOSE 3000
 
+
 CMD ["node", "/yapi/vendors/start.js"]
